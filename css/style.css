@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Kalam',cursive;
+}
+body{
+    background-image: url("../images/pozadina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+}
+.okvir{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+header nav{
+    background: rgb(0, 0, 0,0.5);
+    position: sticky;
+    top: 100px;
+}
+#logo {
+    color:#39fa6d;
+    text-align: center;
+    text-transform: uppercase;
+}
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+#navigation a{
+    position: relative;
+    color:#35e664;
+    text-decoration-line: none
+}
+#galerija{
+    margin:20px 0px;
+}
+.sekcijaPozadina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 350px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sekcijaNaslov{
+    padding: 10px 0px;
+    font-size: 40px;
+    background: rgba(181, 152, 110,0.5);
+}
+.sekcijaNaslov h3{
+    color: #35e664;
+    text-transform: uppercase;
+}
+.sekcijaSadrzaj{
+    font-size: 25px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.galerija{
+    background-image: url("../images/sekcijaGalerija.jpg");
+}
+.uvod{
+    background-image: url("../images/sekcijaUvod.jpg");
+}
+#uvodTekst{
+    color: #fff;
+}
+.saveti{
+    background-image: url("../images/saveti.jpg");
+}
+.autor{
+    background-image: url('../images/sekcijaAutor.jpg');
+}
+.kontakt{
+    background-image: url('../images/sekcijaKontakt.jpg');
+}
+.savet{
+    border:5px dotted #000;
+    width: 45%;
+    margin: 10px 0px;
+    padding: 15px 15px;
+    color: #fff;
+    border-radius: 10%;
+}
+.savet h4{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.savet p{
+    font-size: 20px;
+}
+
+.slajder{
+    justify-content: space-evenly;
+}
+.slajd{
+    width: 31%;
+    margin: 10px 10px;
+    
+}
+.slajd img{
+    width:100%;
+    border-radius: 10%;
+    border: 2px solid #000;
+}
+.oAutoru{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.oAutoru img{
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 10%;
+    
+
+}
+.auth{
+    justify-content: start;
+    margin: 0px 50px;
+}
+#forma{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#forma h5{
+    font-size: 30px;
+}
+.input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+    text-align: left;
+}
+.polje{
+    font-size: 20px;
+    width: 40%;
+    border: 5px solid #35e664;
+    border-radius: 20%;
+    padding: 10px 0px;
+    margin: 10px 10px;
+}
+.chBox{
+ font-size: 20px; 
+ width: 20px;
+ height: 20px;  
+}
+.radioBtn{
+    width: 20px;
+    height: 20px;
+}
+.biraj{
+    margin: 0px 80px;
+}
+.biraj ol{
+    color: #fff;
+}
+#poruka{
+    font-size: 25px;
+    border: 5px solid #35e664;
+    height: 160px;
+    border-radius: 10%;
+}
+#send{
+    font-size: 30px;
+    border: 5px solid #35e664;
+    border-radius: 10%;
+}
+footer{
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px;
+}
+.foot{
+    display: flex;
+}
+.foot article{
+    margin: 0px 20px;
+    width: 50%;
+}
+#levo{
+    text-align: left;
+    border-right: 3px solid rgba(255, 255, 255, 0.5);
+    padding-right:10%;
+}
+#levo ul{
+    word-break:break-all;
+}
+#desno{
+    text-align: center;
+}
+#desno h5{
+    font-size: 18px;
+    text-align: center;
+}
+#desno ul{
+    margin:5px 0px;
+    list-style: none;
+    font-size: 30px;
+}
+#desno ul li{
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+#desno ul li a{
+    color:#fff;
+}
